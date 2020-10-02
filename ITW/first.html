@@ -21,13 +21,16 @@
                 }
                 img{
                     float: left;
-                    width: 375lpx;
+                    width: 1300px;
                     height:500px;
                     border: 3px solid #f6f7f4;
 
                 }
                 .right{
-                    margin-top: 50px;
+                    position: absolute;
+                    margin-top: 80px;
+                    top:200px;
+                    left:650px;
                     float:center;
                     text-align: center;
                     font-family: sans-serif;
@@ -45,6 +48,16 @@
                  {
                      color:darkgreen;
                  }
+                 .button {
+  background-color: white /* Green */
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
         </style>
     </head>
@@ -55,17 +68,33 @@
         </div>
         <div class="m">
              <marquee width="100%" direction="left" height="100px">
-            <p Style="color: coral; font-size:large;"> I am Madhava Krishna chowdary.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p Style="color: coral; font-size:x-large;"> I am Madhava Krishna chowdary.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             I am from Khammam.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have completed my B.Tech from Lingayas university,faridabad.
              &#128525;</p> </marquee>
         </div>
 
-        <div>
-        <img src="krishna.jpg">
-        </div>
+    
+        <img src="43.jpeg">
+        
     <div class="right">
-        <a href="first1.html" target="_blank">EDUCATION DETAILS</a><br><b>
-        <a href="first2.html" target="_blank">Experience</a></div>
+        <b>
+        <form action="first1.html">      
+            <input type="submit" value="EDUCATION DETAILS" class="button"/> 
+        </form>  <br>
+        <form action="first2.html">
+            <input type="submit" value="EXPERIENCE" class="button"/>
+        </form> <br>
+        <form action="interests.html">
+            <input type="submit" value="INTERESTS" class="button"/>
+        </form> <br>
+        <form action="linkedin.html">
+            <input type="submit" value="SOCIAL MEDIA" class="button"/>
+        </form> <br>
+        <form action="signin.html">
+            <input type="submit" value="FOLLOW ME" class="button"/>
+        </form> 
+    </b>
+        </div>
     </body>
 
 </html>
